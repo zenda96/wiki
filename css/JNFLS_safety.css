@@ -1,0 +1,25 @@
+/*
+* @Author: zenda
+* @Email: 1606726646@qq.com
+* @Description: Ψ(^._.^)Ψ  have a nice day~~~
+* @Date:               2016-10-08 20:51:27
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-10-09 09:00:50
+*/
+#JNFLS_container h3{
+	font-size: 25px;
+	padding: 8px;
+	border-left: 5px solid #D85C0E;
+	color: #D85C0E;
+	text-indent: 30px;
+}
+#JNFLS_container p{
+	text-indent: 2em;
+	line-height: 1.5;
+	font-size: 18px;
+	padding: 8px;
+}
+#JNFLS_container img{
+	margin: 10px auto;
+	display: block;
+}
