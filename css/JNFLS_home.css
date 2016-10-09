@@ -1,0 +1,84 @@
+/*
+* @Author: zenda
+* @Email: 1606726646@qq.com
+* @Description: Ψ(^._.^)Ψ  have a nice day~~~
+* @Date:               2016-10-01 09:36:41
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-10-09 09:07:21
+*/
+
+// fullpage
+.section{
+    background-color: #ccc;
+    overflow: hidden;
+    text-align: center;
+}
+.section2{
+    background: url(../img/JNFLS_logo.jpg) no-repeat center center;
+    background-size: cover;
+}
+.page1_container_false{
+	background: #BAB9B9;
+	opacity: 0.6;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	filter:alpha(opacity=60);
+}
+.page1_container{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;	
+	opacity: 1;	
+	margin-top: 80px;
+	border-top: 10px solid #E76F07;
+}
+.page1_container h1{
+	padding: 16px 40px;
+	color: #E76F07;
+	text-align: center;
+}
+.page1_container h2{
+	color: #E76F07;
+	font-weight: normal;
+	text-align: right;
+	padding:0px 10px;
+	text-align: center;
+}
+.page1_container p{
+	padding: 5px  40px;
+	font-size: 19px;
+	line-height: 1.5;
+	text-indent: 2em;
+	text-align: left;
+}
+/* page 2 */
+.page2_container h2{
+	text-align: center;
+	color: #1E1D4D;
+	font-size: 40px;
+	min-width: 800px;
+}
+.page2_container h2 em{
+	color: #9B0808;
+	font-size: 60px;
+}
+.page2_container p{
+	font-size: 30px;
+	text-align: center;
+	color: #9B0808;
+}
+
+/* page 3 */
+.section1{
+    background: url(../img/JNFLS_page3_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+.section4{
+    background: url(../img/JNFLS_page4_bg.jpg) no-repeat center;
+    background-size: cover;
+}
