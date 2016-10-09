@@ -1,0 +1,81 @@
+/*
+* @Author: zenda
+* @Email: 1606726646@qq.com
+* @Description: Ψ(^._.^)Ψ  have a nice day~~~
+* @Date:               2016-10-01 12:51:20
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-10-09 10:54:22
+*/
+
+*{
+	padding:0;
+	margin:0;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+body{
+	background: #FCF2E6;
+	font-family: "微软雅黑";
+}
+#container_member{
+	width: 1200px;
+	height: auto;
+	padding-top: 100px;
+	margin: 0 auto;
+}
+#container_member h2{
+	text-align: center;
+	padding: 10px;
+	margin: 30px;
+	font-size: 26px;
+	color: #ED931E;
+}
+#container_member .img{
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	margin: 0 40px;
+	box-shadow: 8px 8px 8px #ccc;
+}
+#container_member .img_2{
+	margin: 0 150px;
+}
+#container_member img{
+	width: 280px;
+	height: 360px;
+	border: 5px solid #FBCE9C;
+}
+#container_member p{
+	position: absolute;
+	background: #FBCE9C;
+	width: 100%;
+	height: 375px;
+	left: 0;
+	top: 330px;
+	font-size: 18px;
+	color: #000;
+	line-height: 40px;
+	text-indent: 2em;
+	transition:all 300ms;
+}
+#container_member p span{
+	padding: 5px 9px;
+	display: block;
+	border-top: 2px dotted #fff;
+	font-size: 15px;
+	line-height: 1.3;
+}
+#attri h3{
+	border-left: 5px solid #F3B029;
+	padding: 10px;
+}
+#attri h4{
+	text-indent: 2em;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 4px 30px;
+}
