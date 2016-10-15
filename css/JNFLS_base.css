@@ -4,7 +4,7 @@
 * @Description: Ψ(^._.^)Ψ  have a nice day~~~
 * @Date:               2016-10-06 14:56:41
 * @Last Modified by:   Administrator
-* @Last Modified time: 2016-10-09 10:58:58
+* @Last Modified time: 2016-10-12 11:25:06
 */
 
 *{
@@ -18,7 +18,8 @@ p{
 	font-family: "Open Sans", Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 a{
-	color: #F96518;
+	text-decoration: none;
+	color: #fff;
 }
 #fullpage-nav{
     width: 100%;
@@ -26,10 +27,12 @@ a{
     height: 60px;
     z-index: 9999;
     top: 20px;
-    background: url(../img/JNFLS_navbar.jpg);
+    background: #F19507;
 }
-ul.nav li.active{
-    background: url(../img/JNFLS_navbar_active.jpg) repeat-x;
+#fullpage-nav ul.nav li.active{
+    background: #F6B669;
+    color: #F68613;
+    text-decoration: underline;
 }
 #fullpage-nav ul.nav{
 	font-family: "微软雅黑";
@@ -44,6 +47,9 @@ ul.nav li.active{
     color: #fff;
     
 }
+#fullpage-nav a:visited {
+     color: #F68613; 
+}
 #fullpage-nav ul.nav li{
     width: 90px;
     float: left;
@@ -56,18 +62,21 @@ ul.nav li.active{
 }
 #fullpage-nav ul.item li{
 	margin-left: -50px;
-	background: #353434;
+	background: #F19507;
 	width: 200px;
 	display: block;	
 	clear: both;
 	font-size: 14px;
 	padding: 5px;
-	border-bottom: 1px solid #ECE6E6;
+	border-top: 1px solid #fff;
 }
 .item2{
 	display: none;
 }
-#fullpage-nav ul.item li:hover,#fullpage-nav ul.item li.itemact{
+#fullpage-nav ul.item a{
+	display: block;
+}
+#fullpage-nav ul.item a:hover,#fullpage-nav ul.item a.itemact{
 	background: #fff;
 	color: #000;
 	font-size: 18px;
